@@ -1,0 +1,28 @@
+@import "./normalize.css";
+
+@font-face {
+	font-family: MaoBi2;
+	src: url('../font/MaoBi.ttf');
+}
+@font-face {
+	font-family: MaoBi1;
+	src: url('../font/Fan.ttf');
+}
+
+:root{
+	writing-mode: tb-rl;
+	overflow-x: auto;
+
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
